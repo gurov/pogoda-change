@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Погода</title>
+
+  </head>
+
+  <body>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>Проверка смещения сезонов</h1>
+        <div class="row">
+          <div class="col-md-2 form-group">
+            <label for="start-year">Start year</label>
+            <input type="text" class="form-control" id="start-year" value="1956">
+          </div>
+          <div class="col-md-2 form-group">
+            <label for="end-year">End year</label>
+            <input type="text" id="end-year" class="form-control" value="2018">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="input-file">Specify a file:</label><br>
+          <input type="file" id="input-file"  class="form-control-file">
+        </div>
+
+        <div id="chart_div"></div>
+        <hr>
+        <div id="chart_div_svg_year_t"></div>
+
+      </div>
+
+    </main>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="some-code.js"></script>
+
+    <!-- подглядывать любишь? -->
+
+</body>
+</html>
